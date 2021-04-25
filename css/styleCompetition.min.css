@@ -1,0 +1,697 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Bubblegum Sans', cursive
+}
+
+body.full-background {
+    background: url(../images/5053309.jpg?2104201727) no-repeat 0% 0%;
+    background-size: cover;
+    width: 100%;
+}
+
+body.full-background .container {
+    justify-content: flex-start;
+    align-items: space-between;
+    background: rgba(8, 0, 0, .6)
+}
+
+body.full-background .container p {
+    text-align: center;
+    color: #fff;
+    margin: auto;
+    margin-top: 200px;
+    width: 80%;
+    font-size: 40px;
+    word-spacing: 10px
+}
+
+body.full-background .container p span {
+    color: #9a2222;
+    font-size: 50px;
+    display: block;
+    margin: 50px auto;
+}
+
+body.full-background .container p:last-of-type {
+    margin: 10px auto 200px
+}
+
+body.full-background footer {
+    border: none;
+    width: 100%;
+    margin: 0px auto;
+    margin: 0px;
+    padding: 0px;
+    line-height: 40px;
+    padding-top: 3px;
+    border-top: 10px solid #fff;
+}
+
+nav {
+    width: 100%;
+    background: linear-gradient(to left bottom, #c2341c, #000);
+    background: #9a2222;
+    font-size: 35px;
+    padding: 10px 0;
+    text-align: center;
+    border-bottom: 10px solid #fff;
+}
+
+nav ul {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+nav ul li {
+    width: 32%;
+    color: #fff;
+    text-shadow: 5px 5px 5px #000;
+}
+
+nav ul li:first-of-type {
+    position: relative;
+    line-height: 45px;
+}
+
+nav ul li span {
+    color: #faaa42;
+    font-size: 40px
+}
+
+header {
+    background: url(../images/5053309.jpg?2104201727) no-repeat 50% 80%;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 1
+}
+
+nav img {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: -6px;
+    left: 50px;
+}
+
+.container {
+    width: 85%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    padding-left: 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(8, 0, 0, .5)
+}
+
+.submit h2,
+header .container h1 {
+    color: #fafafa;
+    text-align: center;
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 8%
+}
+
+.submit h2 {
+    font-size: 30px
+}
+
+.submit h2 span {
+    color: #c2341c;
+    font-size: 33px
+}
+
+header .container {
+    padding-left: 0
+}
+
+.aboutus .container .about h2 span,
+header .container h1 span {
+    color: #c2341c;
+    font-size: 35px;
+    padding: 5px
+}
+
+form .submit,
+form {
+    width: 100%;
+    margin-top: 0%;
+    padding-bottom: 5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 0px
+}
+
+form .submit {
+    margin-top: 5%;
+    padding-bottom: 0%
+}
+
+form header label {
+    font-size: 30px;
+    color: #c2341c;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center
+}
+
+form header .formcontainer {
+    display: flex;
+    width: 85%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+    padding-left: 20px
+}
+
+form header label span {
+    color: #fafafa;
+    padding-left: 5px;
+    font-weight: bold
+}
+
+form header .formcontainer i {
+    width: 6%;
+    background-color: #fafafa;
+    color: #c2341c;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 15px;
+    padding-top: 13px;
+    padding-left: 0px;
+}
+
+form .submit button,
+form header input {
+    outline: 0;
+    border: 1px solid#c2341c;
+    padding: 20px;
+    color: #fafafa;
+    background: rgba(8, 0, 0, .5);
+    width: 89%;
+    font-size: 26px;
+    font-family: 'Bubblegum Sans', cursive;
+    transition: all 1s ease-in-out
+}
+
+form .submit button:hover {
+    color: #000;
+    background: #fafafa;
+    border: 1px solid #c2341c
+}
+
+form header input {
+    border-left: 0
+}
+
+form .submit button {
+    margin-bottom: 5%;
+    margin-left: 0px;
+    text-align: center;
+    width: 100%;
+    padding: 1%;
+    cursor: pointer
+}
+
+form .submit button {
+    width: 98.5%
+}
+
+header input::placeholder {
+    color: #fafafa;
+    font-family: 'Bubblegum Sans', cursive
+}
+
+header i {
+    color: #c2341c;
+    font-size: 24px;
+    border: 1px solid#c2341c;
+    border-right: 0
+}
+
+header a {
+    display: inline-block;
+    text-align: center;
+    border: 4px double #c2341c;
+    border-radius: 46%;
+    padding: 10px;
+    margin-bottom: 5%;
+    width: 25px;
+    height: 25px;
+    position: relative;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    margin-top: 50px
+}
+
+html {
+    scroll-behavior: smooth
+}
+
+header a i {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    border: none;
+    animation-name: slide-down;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    scroll-behavior: smooth
+}
+
+@keyframes slide-down {
+    0% {
+        top: 0
+    }
+    10% {
+        top: 10%
+    }
+    20% {
+        top: 20%
+    }
+    30% {
+        top: 30%
+    }
+    40% {
+        top: 40%
+    }
+    50% {
+        top: 50%
+    }
+    60% {
+        top: 60%
+    }
+    70% {
+        top: 70%
+    }
+    80% {
+        top: 80%
+    }
+    90% {
+        top: 90%
+    }
+    100% {
+        top: 100%
+    }
+}
+
+.aboutus .container {
+    background: 0 0
+}
+
+.aboutus .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between
+}
+
+.aboutus .container>div {
+    width: 45%
+}
+
+.aboutus .container .about {
+    margin-top: -120px;
+    padding-left: 10px
+}
+
+.aboutus .container .about h2 {
+    color: #000;
+    font-size: 35px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    width: 100%
+}
+
+.aboutus .container .about h2 span {
+    font-size: 45px
+}
+
+.aboutus .container .about p {
+    margin-bottom: 40px;
+    line-height: 40px;
+    font-size: 21px;
+    color: #c2341c;
+    color: #6a6464;
+    font-weight: 545
+}
+
+.aboutus .container .about ul.social {
+    list-style: none;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-left: 0
+}
+
+.aboutus .container .about ul.social li {
+    width: 33%
+}
+
+.aboutus .container .about ul.social li a {
+    text-decoration: none;
+    width: 100%;
+    text-align: left
+}
+
+.aboutus .container .about ul.social li a i {
+    color: #c2341c;
+    font-size: 40px;
+    transition: color 1s ease-in-out
+}
+
+.aboutus .container .about ul.social li a:hover i {
+    color: #000
+}
+
+.aboutus .container .vector img {
+    width: 90%;
+    margin: auto;
+    height: 500px
+}
+
+.missions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #cecbcb12
+}
+
+.missions .container {
+    background: 0 0;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+    padding-left: 10px
+}
+
+.missions h2 {
+    color: #c2341c;
+    font-size: 55px;
+    margin-bottom: 10px
+}
+
+.border-bottom {
+    background-color: #faaa42;
+    width: 140px;
+    height: 5px;
+    margin-bottom: 50px;
+    display: inline-block;
+    margin-right: 30px
+}
+
+.missions .card {
+    width: 350px;
+    background-color: #000;
+    color: #fefefe;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 5px 5px 10px #e2e0e0;
+    transition: box-shadow 1s ease-in-out
+}
+
+.missions .card:hover {
+    box-shadow: 5px 5px 15px #aaa
+}
+
+.missions .card .header {
+    background-color: #f5f2f2;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px 10px 0 0;
+    border-bottom: 3px dashed #000
+}
+
+.missions .card .header h3 {
+    margin-top: 0;
+    padding-top: 10px;
+    font-weight: 700;
+    font-size: 25px;
+    padding: 10px 0;
+    width: 100%;
+    text-align: center;
+    background-color: #000;
+    border-radius: 10px 10px 0 0;
+    border-bottom: 3px dashed #c2341c
+}
+
+.missions .card .header h3 span {
+    color: #faaa42;
+}
+
+.missions .card .header .image {
+    border-radius: 10%;
+    height: 180px;
+    width: 260px;
+    margin-bottom: 20px;
+    border: 10px double #fafafa;
+    transition: transform 1s ease-in-out;
+    perspective: 1000px
+}
+
+.missions .card:hover .image {
+    transform: rotate(360deg);
+}
+
+.missions .card .header .image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 7%
+}
+
+.missions .card .caption {
+    padding-left: 10px;
+    color: #fafafa;
+    font-size: 19px;
+    line-height: 40px
+}
+
+.missions .card .caption span {
+    color: #faaa42;
+    padding-right: 15px
+}
+
+.missions .card .caption .colors {
+    color: #faaa42
+}
+
+.missions .card .caption .colors span {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+    margin: 0px 2px;
+    padding-right: 0;
+    margin-bottom: -10px;
+    border: 2px solid #fafafa
+}
+
+.missions .card .caption .colors span:last-of-type {
+    margin: 0px;
+    margin-bottom: -10px;
+}
+
+
+/* cat reloaded logo colors*/
+
+.missions .card.catChallenge .caption .colors span:first-of-type {
+    background-color: #c43418
+}
+
+.missions .card.catChallenge .caption .colors span:nth-of-type(2) {
+    background-color: #fefefe
+}
+
+
+/* codepen logo colors*/
+
+.missions .card.codePenChallenge .caption .colors span:first-of-type {
+    background-color: #1c1c1c
+}
+
+.missions .card.codePenChallenge .caption .colors span:nth-of-type(2) {
+    background-color: #fefefe
+}
+
+
+/* footballChallenge logo colors*/
+
+.missions .card.footballChallenge .caption .colors span:first-of-type {
+    background-color: #a59568
+}
+
+.missions .card.footballChallenge .caption .colors span:nth-of-type(2) {
+    background-color: #0066ab
+}
+
+.missions .card.footballChallenge .caption .colors span:nth-of-type(3) {
+    background-color: #000001
+}
+
+.missions .card.footballChallenge .caption .colors span:nth-of-type(3) {
+    background-color: #fff
+}
+
+
+/* arena Challenge logo colors*/
+
+.missions .card.arenaChallenge .caption .colors span:nth-of-type(1) {
+    background-color: #1d1d1b
+}
+
+.missions .card.arenaChallenge .caption .colors span:nth-of-type(2) {
+    background-color: #fff
+}
+
+
+/* emailChallenge logo colors*/
+
+.missions .card.emailChallenge .caption .colors span:first-of-type {
+    background-color: #fabc05
+}
+
+.missions .card.emailChallenge .caption .colors span:nth-of-type(2) {
+    background-color: #eb4336
+}
+
+.missions .card.emailChallenge .caption .colors span:nth-of-type(3) {
+    background-color: #c5211e
+}
+
+.missions .card.emailChallenge .caption .colors span:nth-of-type(4) {
+    background-color: #34a853
+}
+
+.missions .card.emailChallenge .caption .colors span:nth-of-type(5) {
+    background-color: #4284f5
+}
+
+.missions .card.emailChallenge .caption .colors span:nth-of-type(6) {
+    background-color: #000
+}
+
+form .missions {
+    width: 100%
+}
+
+form .missions label {
+    color: #c2341c
+}
+
+form .missions .upload input {
+    width: 100%;
+    position: relative
+}
+
+.upload {
+    width: 100%;
+    position: relative;
+    background-color: #f5f2f2;
+    border: none;
+    color: #faaa42;
+    ;
+    text-shadow: 1px 1px 1px #fff;
+    cursor: pointer;
+    font-weight: 800;
+    display: inline-block;
+    padding: 0;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    border-radius: 0 0 4px 4px;
+    font-size: 19px;
+    position: relative;
+    border-top: 3px dashed #000!important
+}
+
+.upload p {
+    position: absolute;
+    z-index: 333;
+    top: 5px;
+    text-align: center;
+    width: 100%
+}
+
+.upload input {
+    cursor: pointer;
+    margin: 0;
+    opacity: 0;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 555;
+    padding: 20px;
+    top: 0
+}
+
+.submit {
+    background: url(../images/5053309.jpg?2104201727) fixed 50% 50% no-repeat;
+    background-size: cover;
+    margin: 50px auto;
+    border-bottom: 10px solid #9a2222;
+}
+
+footer {
+    background: #9a2222;
+    color: #fafafa;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    border-top: 10px solid #000;
+    position: relative;
+}
+
+footer img {
+    position: absolute;
+    top: 7px;
+    width: 30px;
+    height: 27px
+}
+
+.contestIcons {
+    margin-bottom: 50px
+}
+
+.contestIcons .container {
+    background: 0 0
+}
+
+.contestIcons nav {
+    background: #fff;
+}
+
+.contestIcons nav ul li {
+    color: #9a2222;
+    text-shadow: 2px 2px 2px #000;
+    font-weight: 700
+}
+
+.contestIcons nav ul li span {
+    color: #faaa42
+}
+
+*::selection {
+    background: #c2341c!important;
+    color: #fff!important;
+}
